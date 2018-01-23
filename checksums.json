@@ -1,0 +1,14 @@
+{
+  "LICENSE": "b44c6d1c0afbde8619a28264b435a973",
+  "README.markdown": "09452ce7abda8bd9eeff91d9cea57f43",
+  "README.markdown.bak": "c4ac6a425601cead8c3738b1de374454",
+  "Rakefile": "ec641f9abbcd37cbe618d5c3c7673314",
+  "lib/puppet/provider/usersec/usersec.rb": "4a23ee634c55e3da51688d66aed6ca04",
+  "lib/puppet/type/usersec.rb": "faa3d6d75b491febb36b46a4233c50ea",
+  "manifests/init.pp": "652a6c9d41c460d36b34efc1eef58bf5",
+  "manifests/params.pp": "671da94262a76cdb49002e58c01731d6",
+  "metadata.json": "622ed65e1d8140b8678278f1761747d5",
+  "spec/spec.opts": "eb547b31184006017b3f6d6e2f1bbc12",
+  "spec/spec_helper.rb": "2553c1effba7428583143e8f908fac3a",
+  "tests/init.pp": "af9ec09aa9e21501d2381132ebdc2981"
+}

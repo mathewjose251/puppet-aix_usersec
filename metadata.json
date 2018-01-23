@@ -1,0 +1,36 @@
+{
+  "name": "BashTheStampede-aix_usersec",
+  "version": "0.1.0",
+  "author": "BashTheStampede",
+  "summary": "Manage AIX default user security settings",
+  "license": "MIT",
+  "source": "https://forge.puppetlabs.com/BashTheStampede-aix_usersec",
+  "project_page": "https://forge.puppetlabs.com/BashTheStampede-aix_usersec",
+  "issues_url": "",
+  "tags": [
+    "usersec",
+    "AIX",
+    "security"
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "AIX"
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.3.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": "3.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 3.0.0"
+    }
+  ]
+}
