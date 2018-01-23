@@ -26,6 +26,10 @@ Puppet::Type.newtype(:usersec) do
 	newproperty(:minage) do
 		desc "minimum age of password"
 	end
+
+	newproperty(:mindigit) do
+		desc "minimum digit of password"
+	end
 	
 	newproperty(:maxage) do
 		desc "the maximum age before password expires"

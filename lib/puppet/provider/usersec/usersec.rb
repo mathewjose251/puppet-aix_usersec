@@ -70,6 +70,16 @@ Puppet::Type.type(:usersec).provide :aix do
   def minage=(value)
     system('chsec -f /etc/security/user -s default -a minage='"#{resource[:minage]}")
   end
+
+  def mindigit
+    if getuser("mindigit") == resource[:mindigit]
+      return resource[:mindigit]
+    end
+  end
+  
+  def mindigit=(value)
+    system('chsec -f /etc/security/user -s default -a mindigit='"#{resource[:mindigit]}")
+  end
   
   def maxage
     if getuser("maxage") == resource[:maxage]
