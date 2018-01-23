@@ -5,6 +5,7 @@ class aix_usersec::params {
   $histexpire   = ''
   $histsize     = ''
   $minage       = ''
+  $mindigit     = ''
   $maxexpired   = ''
   $minalpha     = ''
   $minother     = ''
